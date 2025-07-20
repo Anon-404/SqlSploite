@@ -1,0 +1,42 @@
+You have an error in your SQL syntax;
+Warning: mysql_
+Unclosed quotation mark after the character string
+quoted string not properly terminated
+Microsoft OLE DB Provider for SQL Server
+[SQL Server]Incorrect syntax near
+ODBC Microsoft Access Driver
+ODBC SQL Server Driver
+Syntax error in string in query expression
+Invalid Querystring
+OLE DB Provider for ODBC Drivers
+supplied argument is not a valid MySQL result resource
+mysql_fetch_assoc()
+mysql_fetch_array()
+mysql_num_rows()
+Warning: pg_connect()
+Warning: pg_exec()
+Warning: pg_query()
+pg_query(): Query failed
+Query failed: ERROR
+supplied argument is not a valid PostgreSQL result
+org.hibernate.QueryException
+java.sql.SQLException
+System.Data.SqlClient.SqlException
+Unrecognized token
+DB2 SQL error:
+Fatal error: Uncaught PDOException
+PDOException: SQLSTATE
+SQLite3::query(): Unable to prepare statement
+near "SELECT": syntax error
+Expecting Lexical token
+MySQL server version for the right syntax to use near
+Call to a member function query() on null
+Fatal error: Call to undefined method
+DB::query()
+ActiveRecord::StatementInvalid
+SequelizeDatabaseError
+UnhandledPromiseRejectionWarning: SequelizeDatabaseError
+Error: SQLITE_ERROR
+OperationalError: no such table
+OperationalError: near
+SQLSTATE[HY000]
